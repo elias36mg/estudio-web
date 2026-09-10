@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Web - Plataforma de Aprendizaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">📚 Estudio Web</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a Estudio Web</h1>
+            <p>Tu plataforma de aprendizaje interactivo</p>
+            <button class="cta-button" onclick="scrollToSection('cursos')">Explorar Cursos</button>
+        </div>
+    </section>
+
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <h2>Cursos Disponibles</h2>
+            <div class="cursos-grid">
+                <div class="curso-card">
+                    <div class="curso-icon">💻</div>
+                    <h3>Programación</h3>
+                    <p>Aprende Python, JavaScript y más lenguajes</p>
+                    <button class="btn">Ver Curso</button>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">📊</div>
+                    <h3>Matemáticas</h3>
+                    <p>Álgebra, cálculo y estadística</p>
+                    <button class="btn">Ver Curso</button>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">🌍</div>
+                    <h3>Idiomas</h3>
+                    <p>Inglés, español y otros idiomas</p>
+                    <button class="btn">Ver Curso</button>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">🎨</div>
+                    <h3>Diseño</h3>
+                    <p>UI/UX, gráficos y creatividad</p>
+                    <button class="btn">Ver Curso</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="recursos">
+        <div class="container">
+            <h2>Recursos de Aprendizaje</h2>
+            <div class="recursos-list">
+                <div class="recurso-item">
+                    <h3>📝 Tutoriales</h3>
+                    <p>Guías paso a paso para dominar cada tema</p>
+                </div>
+                <div class="recurso-item">
+                    <h3>🎥 Videos</h3>
+                    <p>Lecciones en video de alta calidad</p>
+                </div>
+                <div class="recurso-item">
+                    <h3>✏️ Ejercicios</h3>
+                    <p>Practica con ejercicios interactivos</p>
+                </div>
+                <div class="recurso-item">
+                    <h3>📚 Documentación</h3>
+                    <p>Referencia completa de cada tema</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Email: contacto@estudioweb.com</p>
+            <p>Síguenos en redes sociales</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p class="copyright">&copy; 2026 Estudio Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
